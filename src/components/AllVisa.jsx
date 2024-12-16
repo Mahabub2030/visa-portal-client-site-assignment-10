@@ -5,11 +5,11 @@ import Footer from './Footer';
 import Visa from './Visa';
 
 const AllVisa = ({alldata}) => {
-    // console.log(alldata.age,"all data");
+   
     const visaData = useLoaderData()
-    // console.log(alldata.photo,"all data");
+  
     return (
-        <div className='container w-11/12 mx-auto mt-10 mb-10'>
+        <div className='container w-11/12 mx-auto mt-10 mb-10 '>
           <Navbar></Navbar>
           <h2 className='text-center text-2xl'>All Visa </h2>
           <div className='grid grid-cols-4 gap-10'>
